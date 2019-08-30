@@ -1,3 +1,4 @@
+
 #! /usr/bin/env python3
 
 import sys        # command line arguments
@@ -24,7 +25,7 @@ if not os.path.exists(textFname):
     print ("text file input %s doesn't exist! Exiting" % textFname)
     exit()
     
-#execute the program with 
+#execute the program with  This is the line thats causing problems
 subprocess.call(["python3", "./wordCount.py", textFname, outputFname])
 
 #make sure output file exists
